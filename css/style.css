@@ -1,0 +1,99 @@
+li{
+     list-style: none;
+}
+a{
+     text-decoration: none;
+     color: white;
+}
+.w-45{
+     width: 45%;
+}
+#home{
+     background-image: url(../images/events-heavenly-header.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 660px;
+     position: relative;
+}
+.layer{
+     background-color: rgba(214, 46, 51 , 0.6);
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+}
+.layer .menu-open{
+     font-size: 30px;
+     cursor: pointer;
+}
+.menu{
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     background-color: black;
+     z-index: 99999;
+     width: 0%;
+     padding: 0;
+     text-align: center;
+     font-size: 0%;
+}
+.emptyspace{
+     width: 0%;
+}
+.menu li a{
+     transition: 0.4s;
+}
+.menu li a:hover{
+     color: #601C1E !important;
+}
+.menu i{
+     color: white;
+     text-align: right;
+     font-size: 25px;
+
+}
+.home-content{
+     top: 43%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.home-content h2{
+     font-size: 60px;
+}
+.duration h3{
+     cursor: pointer;
+     background-color: #E68285;
+     color: white;
+}
+.duration p{
+     background-color: #CCCCCC;
+     display: none;
+}
+
+.details{
+     background-image:url(../images/invitation-2508607__340.jpg);
+     height: 35vh;
+}
+.details .layer span{
+     border: 1px solid white;
+     font-size: 30px;
+     width: 18%;
+     display: flex;
+     justify-content: center;
+}
+.contact .contact-content{
+     color: #777777;
+}
+.contact .social i{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+}
+.contact .social i:hover{
+     color: white !important;
+     background-color: #D62E33;
+     border-color: #D62E33 !important;
+}
